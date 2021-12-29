@@ -1,0 +1,20 @@
+{
+  "name": "Masak-Apa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "surge": "surge --domain masak-apa.surge.sh",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "vue-infinite-loading": "^2.4.5"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,91 @@
+html, body {
+    background-color: silver !important;
+}
+
+.icon {
+    width: 1.3rem;
+}
+
+.icon-card {
+    width: 1rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.min-100vh {
+    min-height: 100vh;
+}
+
+.border-silver {
+    border: 1px solid silver !important;
+}
+
+.card {
+    border-top-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+
+.card-img-top {
+    border-top-right-radius: 20px !important;
+}
+
+.bot-top-radius {
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+
+.bot-bottom-radius {
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.border-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    border: 0.5px solid silver !important;
+}
+
+.home-enter-active, .home-leave-active { transition: opacity .1s !important; }
+
+.home-enter, .home-leave-active { opacity: 0 !important; }
+
+.kategori {
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border: 1px solid silver !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+}
+
+.w-100p {
+    width: 100% !important;
+}
+
+.accordion-button.collapsed {
+    color: gray !important;
+}
+  
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='gray' %3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.pt-10p {
+    padding-top: 5rem !important;
+}
+
+.card-title {
+    margin-bottom: -5px !important;
+}
+
+.btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='gray' %3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat !important;
+    background-color: transparent !important;
+}
+
+.history {
+    padding: 10px !important;
+}
+
+button, a, input {
+    outline: none !important;
+}
